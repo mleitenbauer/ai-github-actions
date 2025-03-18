@@ -26,7 +26,7 @@ jobs:
             --arg system_content "Du bist ein Produktmanager für Software. Du bewertest GitHub Issue Text ob dieser ein Bug, Feature oder eine Frage ist. Dabei antwortest du ausschließlich mit 'bug', 'feature' oder 'question' ohne weiteren Text. Kannst du gar nichts zuordnen, antworte ausschließlich mit einer leeren Antwort." \
             --arg user_content "$COMBINED_CONTENT" \
             '{
-              "model": "gpt-4",
+              "model": "gpt-4o-mini",
               "messages": [
                 {
                   "role": "system",
